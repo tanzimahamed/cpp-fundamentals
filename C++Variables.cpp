@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+int main(){
+     // Student data
+  int studentID = 15;
+  int studentAge = 23;
+  float studentFee = 75.25;
+  char studentGrade = 'B';
+
+  // Print variables using cout
+  cout << "Student ID: " << studentID << "\n";
+  cout << "Student Age: " << studentAge << "\n";
+  cout << "Student Fee: " << studentFee << "\n";
+  cout << "Student Grade: " << studentGrade << "\n";
+    
+
+  return 0;
+
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myNum = 10;          // Integer variable
+  double myFloat = 4.5;    // Floating point number
+  char myLetter = 'D';     // Character
+  string myText = "Hello"; // String (text)
+  bool myBool = true;      // Boolean
+
+  // Output variables
+  cout << myNum << endl;
+  cout << myFloat << endl;
+  cout << myLetter << endl;
+  cout << myText << endl;
+  cout << myBool << endl;
+
+  return 0;
+}
+
+
+
+
+// Calculate the Area of a Rectangle
+#include <iostream>
+using namespace std;
+
+int main() {
+  // Create integer variables
+  int length = 4;
+  int width = 6;
+
+  // Calculate the area of a rectangle
+  int area = length * width;
+
+  // Print the variables
+  cout << "Length is: " << length << "\n";
+  cout << "Width is: " << width << "\n";
+  cout << "Area of the rectangle is: " << area << "\n";
+
+  return 0;
+}
